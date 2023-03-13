@@ -1,20 +1,36 @@
 body{
-    background: url("images/backgrounds/bg.jpg");
-    background-repeat: no-repeat;
+    /* background: url("images/backgrounds/bg.jpg");  */
+    background-color: #ffeeb5;
+    /* just have normal bg color with a pic of logo in the center */
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
     margin: 0;
 }
 
-#other-body{
-    background-color: #ffeeb5;
+.center {
+    width: 1200px;
+    height: 700px;
+    display:block;
+    background: url('images/logo1.png') no-repeat;
+    background-size: contain;
+    /* margin:auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.center:hover {
+    background: url('images/logo2.png') no-repeat;
+    background-size: contain;
 }
 
 .navbar{
     background-color: tomato;
+    display:flex;
     overflow: hidden;
     padding: 10px;
+    justify-content: space-evenly;
     /* text-align: center; */
 }
 
@@ -23,8 +39,6 @@ body{
     display: inline-block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
-    margin-left: 80px;
-    text-align: left;
 }
 
 .navbtn{
@@ -36,12 +50,13 @@ body{
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    margin-left: 80px;
-    padding: 15px 35px;
-    text-align: center;
+    margin-top: 20px;
+    /* padding: 15px 15px; */
+    height: 80px;
+    width: 125px;
 }
 
 .navbtn:hover {
     background-color: #ffeeb5;
     color: rgb(0, 0, 0);
-  }
+}
