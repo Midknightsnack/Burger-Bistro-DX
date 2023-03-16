@@ -69,7 +69,7 @@ body{
     left:0px; 
     overflow:hidden; 
     white-space: nowrap;
-    animation: bannermove 20s linear infinite;
+    animation: bannermove 10s linear infinite;
     animation-direction: alternate;
 }
   
@@ -82,7 +82,7 @@ body{
         transform: translate(0, 0);
     }
     100% {
-        transform: translate(-65%, 0);
+        transform: translate(-45%, 0);
     }
 }
 
