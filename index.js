@@ -23,10 +23,23 @@ allStar.forEach((item, idx) =>{
   })
 })
 
-// myFunction();
-// function myFunction(){
-//   document.getElementById('thanks') = "Thank you for the rating"
-// }
+showSubmit();
+function showSubmit(){
+  $(document).ready(function() {
+    $('#submit').click(function() {
+      if (!$('#stars').val()) {
+        alert('Please select a number of stars.');
+      } else if (!$('#name').val()) {
+          alert('Please enter your name');
+      } else if (!$('#opinion').val()) {
+          alert('Please write a review before submission');
+      } else{
+          var name = $('#name').val();
+          alert("Thank you " + name + " for rating Burger Bistro!");
+      }
+    })
+  });
+};
 
 // openModal();
 // function openModal(){
