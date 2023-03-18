@@ -35,20 +35,28 @@
             <form action="#">
                 <div class="rating">
                     <input type="number" name="rating" hidden>
-                    <i class='bx bx-star'></i>
-                    <i class='bx bx-star'></i>
-                    <i class='bx bx-star'></i>
-                    <i class='bx bx-star'></i>
-                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>
+                    <i class='bx bx-star star'></i>
                 </div>
-                <textarea name="opinion" cols="30" rows="10" placeholder="Your Review ..."></textarea>
+
+                <div id="nameinput">
+                  <label for="name">Name:</label>
+                  <input type="text" name="name">
+                </div>
+
+                <textarea name="opinion" cols="30" rows="10" placeholder="Describe your experience."></textarea>
                 <div class="btn-group">
                     <button type="submit" class="submitbtn">Submit</button>
+                    <!-- <button type="submit" class="submitbtn" onclick="document.getElementById('thanks').innerHTML='Thank you for rating us!'">Submit</button> -->
                     <button class="cancelbtn">Cancel</button>
                 </div>
             </form>
         </div>
     </div>
+    <!-- <p id="thanks">Filler</p> -->
 
     <!-- <div id="myModal" class="modal">
         <div class="modal-content">
