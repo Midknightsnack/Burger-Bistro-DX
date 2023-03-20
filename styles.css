@@ -239,7 +239,6 @@ body{
 textarea{
     width:100%;
     background:rgb(240, 240, 240);
-
     border-radius: .5rem;
     /* border: none; */
     outline: none;
@@ -282,4 +281,10 @@ textarea{
 }
 .btn-group .cancelbtn:hover{
     background:rgb(201, 201, 201);
+}
+
+/* working with mapbox api */
+#map{
+    height:100vh;
+    width: 100vw;
 }
