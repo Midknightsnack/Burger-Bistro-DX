@@ -246,7 +246,6 @@ textarea{
     border-radius: .5rem;
     border: none;
     outline: none;
-    cursor: pointer;
     font-size: .875rem;
     font-weight: 500;
 }
@@ -256,6 +255,7 @@ textarea{
     color:white;
     padding: 10px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .btn-group .submitbtn:hover{
@@ -267,6 +267,7 @@ textarea{
     color:#447fff;
     padding: 10px;
     border-radius: 6px;
+    cursor: pointer;
 }
 .btn-group .cancelbtn:hover{
     background:rgb(201, 201, 201);
@@ -276,4 +277,33 @@ textarea{
 #map{
     height:100vh;
     width: 100vw;
+}
+
+/* Shopping Cart Section */
+.cartbtn{
+    background-color: #2a6dff;
+    box-sizing: content-box;
+    border: 4px solid white;
+    border-radius: 4px; 
+    color: white;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    height: 80px;
+    width: 230px;
+}
+
+.cartbtn:hover {
+    background-color: rgb(69, 134, 255);
+    color: white;
+}
+
+#cart{
+    background-color: #2a6dff;
+    border: 4px solid rgb(2, 46, 128);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
 }
