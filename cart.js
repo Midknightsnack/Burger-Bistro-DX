@@ -42,8 +42,20 @@ function quantityChanged(event){
 
 function addToCartClicked(event){
     var button = event.target
+    // shop-item-details parent of cartbtn, shop-item parent of shop-item-details
     var shopItem = button.parentElement.parentElement
-    var title = shopItem.getElementsByClassName('')
+    var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
+    var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
+    var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
+    // console.log(title, price, imageSrc)
+    addItemToCart(title, price, imageSrc)
+}
+
+function addItemToCart(title, price, imageSrc){
+    var cartRow = document.createElement('div')
+    cartRow.innerText = title
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    cartItems.append(cartRow)
 }
 
 function updateCartTotal() {
