@@ -118,17 +118,19 @@ body{
     background-color: white;
     padding: 15px 15px;
     border: #ff6d6d solid;
+    border-radius: 10px;
 }
 
 .border2{
-    border: 5px solid #fffb00;
+    border: 5px solid #bdba00;
     border-radius: 10px;
 }
 
 .menudesc2{
     background-color: white;
     padding: 15px 15px;
-    border: solid #fffb00;
+    border: solid #bdba00;
+    border-radius: 10px;
 }
 
 .border3{
@@ -140,6 +142,7 @@ body{
     background-color: white;
     padding: 15px 15px;
     border: solid #44ff54;
+    border-radius: 10px;
 }
 
 
@@ -152,6 +155,7 @@ body{
     background-color: white;
     padding: 15px 15px;
     border: solid #447fff;
+    border-radius: 10px;
 }
 
 /* Review formatting */
@@ -283,7 +287,7 @@ textarea{
 .cartbtn{
     background-color: #2a6dff;
     box-sizing: content-box;
-    border: 4px solid white;
+    border: 4px solid rgb(112, 150, 255);
     border-radius: 4px; 
     color: white;
     cursor: pointer;
@@ -409,8 +413,8 @@ textarea{
 }
 
 .cart-total-price{
-    color: #333;
-    font-size: 1.1em;
+    color: #003dc2;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
